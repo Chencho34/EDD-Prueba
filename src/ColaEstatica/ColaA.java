@@ -1,7 +1,7 @@
 package ColaEstatica;
 
 import tools.toolsList;
-
+// hola mundo
 public class ColaA<T> {
 	private T cola[];
 	private byte u;
