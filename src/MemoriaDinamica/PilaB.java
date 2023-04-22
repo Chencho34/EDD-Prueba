@@ -48,6 +48,4 @@ public class PilaB<T> implements PilaTDA<T>{
 			? "\n" + "tope[" + i + "]==>" + "" + pila.get(i) + "" + toString(i - 1)
 			: "";
 	}
-	
-
 }

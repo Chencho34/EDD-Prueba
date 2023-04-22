@@ -1,6 +1,7 @@
 package Menu;
 
 import ColaEstatica.ColaA;
+import ColaEstatica.ColaB;
 import MemoriaDinamica.PilaB;
 import MemoriaDinamica.PilaC;
 import MemoriaDinamica.PilaD;
@@ -10,13 +11,14 @@ import tools.toolsList;
 public class Menu {
 	public static void menu() {
 		
-//		PilaA<Integer> pila = new PilaA<Integer>((byte) 10);
-//		PilaB<Integer> pila = new PilaB<Integer>();		
-//		PilaC<Integer> pila = new PilaC<Integer>();		
-//		PilaD pila = new PilaD();
+		// PilaA<Integer> pila = new PilaA<Integer>((byte) 10);
+		// PilaB<Integer> pila = new PilaB<Integer>();		
+		// PilaC<Integer> pila = new PilaC<Integer>();		
+		// PilaD pila = new PilaD();
 
-		ColaA<Integer> cola = new ColaA<Integer>((byte)10);
-
+//		ColaA<Integer> cola = new ColaA<Integer>((byte)10);
+		ColaB<Integer> cola = new ColaB<Integer>();
+		
 		String sel = "";
 
 		do {			
